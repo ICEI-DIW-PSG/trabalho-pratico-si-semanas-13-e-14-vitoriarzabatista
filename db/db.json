@@ -1,18 +1,108 @@
 {
-  "usuarios": [
+  "categorias": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "tipo": "Eventos",
+      "nome": "Casamento Clássico",
+      "descricao": "Cerimônia entre jardins e recepção no pátio central.",
+      "descricaodetalhada": "Realizar um casamento na Villa Cetinale é viver um conto de fadas em meio à história. Os jardins renascentistas servem de palco para cerimônias banhadas pela luz dourada da Toscana, enquanto os salões históricos recebem os convidados com música, flores e vinhos locais. A equipe personaliza cada detalhe — do menu à decoração — garantindo uma celebração única e inesquecível. À noite, o local se transforma em um cenário mágico, iluminado por velas e estrelas.",
+      "imagem": "img/evento1.jpg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "tipo": "Eventos",
+      "nome": "Aniversário Privado",
+      "descricao": "Celebração intimista com menu degustação.",
+      "descricaodetalhada": "Celebre a vida com exclusividade e charme. Os aniversários na Villa Cetinale acontecem em ambientes reservados, com jantares intimistas e menus degustação preparados pelo chef. É possível escolher entre o pátio interno, cercado por colunas de pedra e heras, ou o salão principal, decorado com tapeçarias originais. A experiência é completa: música ambiente, vinhos harmonizados e o calor acolhedor da hospitalidade italiana.",
+      "imagem": "img/evento2.jpg"
+    },
+    {
+      "tipo": "Eventos",
+      "nome": "Degustações de Vinhos e Massas",
+      "descricao": "Oficinas de cozinha e degustação de vinhos.",
+      "descricaodetalhada": "O Retiro Gourmet é uma imersão sensorial no universo da gastronomia toscana. Durante alguns dias, os participantes aprendem com chefs locais a preparar massas frescas, molhos clássicos e sobremesas típicas. As aulas acontecem nas cozinhas antigas da Villa, seguidas de degustações de vinhos e azeites da propriedade. É uma experiência que une aprendizado, prazer e convivência, ideal para quem ama a culinária e o estilo de vida italiano.",
+      "imagem": "img/evento3.jpg",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "tipo": "Eventos",
+      "nome": "Noite de Gala",
+      "descricao": "Jantar ao ar livre em nossos jardins.",
+      "descricaodetalhada": "A Noite de Gala na Villa Cetinale é o auge da elegância. O evento é montado nos jardins iluminados por centenas de velas e lustres suspensos. Convidados desfrutam de um jantar sofisticado ao som de uma orquestra local, enquanto o pôr do sol se dissolve nas colinas da Toscana. É uma celebração inesquecível de arte, cultura e sofisticação — o verdadeiro espírito italiano em sua forma mais pura.",
+      "imagem": "img/evento4.jpg"
+    },
+    {
+      "id": "5",
+      "tipo": "Eventos",
+      "nome": "Tour pelas Vinícolas Exclusivas",
+      "descricao": "Passeio guiado pelos vinhedos da Villa Cetinale, com degustação de rótulos premiados.",
+      "descricaodetalhada": "O Tour pelas Vinícolas Exclusivas é uma experiência imersiva nos bastidores da produção dos vinhos toscanos. Os visitantes percorrem os vinhedos centenários acompanhados por enólogos especializados, conhecendo o processo de cultivo, colheita e fermentação das uvas. A visita inclui uma parada na adega histórica da Villa, onde é possível degustar vinhos premiados e harmonizados com queijos e azeites locais. Ideal para amantes da enogastronomia, o tour combina aprendizado, cultura e sabores autênticos da Itália.",
+      "imagem": "img/vinicula.jpg"
+    },
+    {
+      "tipo": "Gastronomia",
+      "nome": "Entradas Toscans",
+      "descricao": "Tábua de antipasti com queijos e pães artesanais.",
+      "descricaodetalhada": "Uma seleção impecável de sabores tradicionais abre o banquete da Villa Cetinale. As entradas são compostas por uma tábua generosa de queijos artesanais produzidos na região de Siena, presuntos curados, pães rústicos recém-assados e azeitonas colhidas nas plantações locais. Servidas com azeite extravirgem de produção própria, essas delícias trazem a essência da “cucina povera” — a culinária simples e autêntica da Toscana, onde o sabor nasce da pureza dos ingredientes.",
+      "imagem": "img/gastronomia1.jpg",
+      "id": "68e3"
+    },
+    {
+      "tipo": "Gastronomia",
+      "nome": "Tagliatelle ao Pomodoro e Burrata",
+      "descricao": "Massa fresca com ragù da casa.",
+      "descricaodetalhada": "Esta é a versão da Villa Cetinale de um clássico toscano. Nossa massa Tagliatelle é preparada de forma artesanal, diariamente na Villa, garantindo frescor e textura inigualáveis. O prato é finalizado com um ragu de pomodoro caseiro, cozido lentamente com ervas locais, e coroado por uma Burrata fresca e cremosa. Um toque de azeite extra virgem e folhas de manjericão colhidas na hora completam esta experiência leve e sofisticada.",
+      "imagem": "img/gastronomia2.jpg",
+      "id": "hHXj0eZ"
+    },
+    {
+      "tipo": "Gastronomia",
+      "nome": "Bebidas: Vinhos da Casa",
+      "descricao": "Seleção Exclusiva de Vinhos Locais e Prosecco.",
+      "descricaodetalhada": "Oferecemos uma curadoria especial dos melhores rótulos da região de Siena, incluindo o prestigiado Chianti Classico e Brunello di Montalcino, ideais para harmonizar com a culinária da Villa. Nossa carta de vinhos é complementada por espumantes Prosecco de alta qualidade, perfeitos para aperitivos e celebrações. Descubra a tradição e o terroir da Toscana em cada taça servida em nossos pátios.",
+      "imagem": "img/gastronomia3.jpg",
+      "id": "1RsVTXh"
+    },
+    {
+      "tipo": "Gastronomia",
+      "nome": "Sobremesas: Tiramisu",
+      "descricao": "Tiramisu Tradicional da Villa Cetinale.",
+      "descricaodetalhada": "Uma sobremesa clássica e indispensável. Nossa receita de Tiramisu é preparada no local, utilizando queijo Mascarpone cremoso, café expresso fresco, biscoitos Savoiardi embebidos em licor e cacau em pó puro. É servido em porções individuais, combinando a leveza do creme com a intensidade do café, proporcionando um final de refeição verdadeiramente autêntico e memorável.",
+      "imagem": "img/gastronomia4.jpg",
+      "id": "REBTRZm"
+    },
+    {
+      "tipo": "Hospedagem",
+      "nome": "Suíte La Rosa",
+      "descricao": "Suíte master com vista para os vinhedos.",
+      "descricaodetalhada": "A Suíte La Rosa é o refúgio ideal para quem busca romantismo e tranquilidade. Decorada em tons de marfim e rosê, com cortinas de linho leve e móveis de época esculpidos à mão, a suíte transmite uma atmosfera acolhedora e elegante. A cama king-size com dossel florido se abre para uma varanda privativa com vista deslumbrante dos vinhedos e dos jardins renascentistas da Villa. O banheiro, revestido em mármore italiano, oferece uma ampla banheira vitoriana e amenities artesanais à base de rosas toscanas. Cada detalhe foi pensado para proporcionar um descanso inesquecível, em perfeita harmonia com o charme da Toscana.",
+      "imagem": "img/cards1.jpg",
+      "id": "ibqM7Ix"
+    },
+    {
+      "tipo": "Hospedagem",
+      "nome": "Quarto Limone",
+      "descricao": "Quarto elegante com decoração clássica.",
+      "descricaodetalhada": "Inspirado na leveza dos limoeiros que enfeitam os pátios da Villa, o Quarto Limone é iluminado por janelas amplas que deixam entrar o sol dourado da manhã. As paredes em tom amarelo pastel refletem a energia vibrante da Toscana, enquanto o mobiliário antigo, restaurado com cuidado, adiciona um toque de nobreza rústica. O ambiente é perfumado com essências naturais de limão e alecrim colhidos nos jardins da propriedade. Ideal para quem busca um espaço alegre e sofisticado, o Quarto Limone oferece uma experiência sensorial completa: frescor, conforto e autenticidade italiana.",
+      "imagem": "img/cards2.jpg",
+      "id": "22vUrD7"
+    },
+    {
+      "tipo": "Hospedagem",
+      "nome": " Suite Oliva",
+      "descricao": "Ambiente íntimo com mobiliário de época.",
+      "descricaodetalhada": "Rodeada por oliveiras centenárias, a Suíte Oliva combina o aconchego do campo com o requinte do design clássico. As paredes em tons terrosos, as vigas de madeira originais e a iluminação suave criam uma atmosfera de calma absoluta. A cama queen-size é coberta com tecidos naturais e almofadas bordadas à mão. Um pequeno terraço privativo oferece vista para o pôr do sol sobre as colinas de Siena, acompanhado pelo som distante dos sinos de uma igreja medieval. A Suíte Oliva é perfeita para casais ou viajantes que desejam desacelerar e se conectar com a essência da Toscana.",
+      "imagem": "img/cards3.jpg",
+      "id": "egAjNye"
+    },
+    {
+      "tipo": "Hospedagem",
+      "nome": " Quarto Cipresso",
+      "descricao": "Quarto espaçoso próximo aos jardins.",
+      "descricaodetalhada": "O Quarto Cipresso homenageia os icônicos ciprestes que ladeiam os caminhos da Villa Cetinale. Espaçoso e elegante, o quarto apresenta uma combinação harmoniosa entre o rústico e o aristocrático: pisos de pedra natural, estantes antigas repletas de livros e uma cama de madeira entalhada. O aroma amadeirado e a vista para os jardins históricos completam o cenário. É um espaço que convida à contemplação e à leitura, ideal para hóspedes que apreciam história, arte e o silêncio poético do interior da Itália.",
+      "imagem": "img/cards4.jpg",
+      "id": "nhEn_dm"
     }
   ]
 }
