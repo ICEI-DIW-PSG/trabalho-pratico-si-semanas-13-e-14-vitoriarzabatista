@@ -9,15 +9,16 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vitoria Amancio Roza Batista
+- Matricula: 904612
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: O projeto é destinado a um espaço de eventos localizado na Itália, cuja entidade principal será a realização de casamentos, eventos corporativos e outras celebrações. Trata-se de um site com proposta romântica e clássica, que apresentará informações sobre o local, sua história e um cardápio gastronômico típico da Itália.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+<< A funcionalidade implementada é na página eventos.html, um Calendário Interativo de Eventos, implementado com a biblioteca FullCalendar.js.
+Ele mapeia cada evento encontrado e o posiciona no calendário. Ao clicar em um evento, o usuário é redirecionado automaticamente para a página de detalhes.>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+[img](public/img/Calendario1.jpg)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+[img](public/img/Calendario2.jpg)
