@@ -9,11 +9,24 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header class="site-header py-3 mb-4 border-bottom">
+  <header class="site-header py-3">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="brand m-0">Villa Cetinale</h1>
-      <small class="text-muted tagline">Experiências & Eventos na Itália</small>
-      <a href="index.html" class="btn btn-outline-secondary">Voltar</a>
+      <div class="logo">
+            <a href="index.html" class="text-decoration-none">
+            <h1 class="m-0 brand">Villa Cetinale</h1>   
+            <small class="text-muted tagline">Experiências & Eventos na Itália</small>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Gastronomia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Hospedagem</a></li>
+          <li class="nav-item"><a class="nav-link" href="cadastro_categorias.html">Cadastro</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -36,6 +49,10 @@
           <label class="form-label">(Item/Subcategoria)</label>
           <input type="text" id="nome" class="form-control" placeholder="Nome do item ou subcategoria" required>
         </div>
+        <div class="col-md-12">
+          <label class="form-label">Data do Evento (Usado apenas para Eventos)</label>
+          <input type="date" id="dataEvento" class="form-control">
+        </div>
         <div class="col-12">
           <label class="form-label">Descrição</label>
           <textarea id="descricao" class="form-control" rows="2" placeholder="Descrição breve do item" required></textarea>
